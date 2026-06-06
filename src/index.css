@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-primary: #020617; /* Slate 950 */
+  --color-brand-secondary: #0f172a; /* Slate 900 */
+  --color-brand-accent: #f59e0b; /* Amber 500 */
+  --color-slate-150: #f1f5f9;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #020617; /* Slate 950 */
+  color: #f1f5f9; /* Slate 100 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom sleek dark scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Base custom classes */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-shadow-glow {
+  text-shadow: 0 0 12px rgba(245, 158, 11, 0.25);
+}
+
+

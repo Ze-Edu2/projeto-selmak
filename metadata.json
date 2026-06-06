@@ -1,0 +1,8 @@
+{
+  "name": "Selmak - gerenciamento de tasks",
+  "description": "",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
